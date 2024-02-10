@@ -166,7 +166,7 @@ public class Main extends JPanel implements KeyListener {
         } catch (FileNotFoundException e) {
             highest_score = 0;
             try {
-                File myObj = new File("filename.tx");
+                File myObj = new File("filename.txt");
                 if (myObj.createNewFile()) {
                     System.out.println("File created: " + myObj.getName());
                 }
